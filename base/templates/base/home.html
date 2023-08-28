@@ -1,0 +1,157 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link
+      href="{% static '/css/main.css'  %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/logo.jpg' %}" />
+            <hr />
+            <h4>Hi I'm PMMS</h4>
+            <p>I love coding, automation, doing research and collaborating</p>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card card-body h-100 border-info">
+            <h4>What i kow</h4>
+            <hr />
+            <p>
+              Upon my enrollment in ALX, my journey expanded into multifaceted
+              realms of expertise. I dived into the realm of web development,
+              harnessing the power of Django to craft dynamic and efficient web
+              applications. This venture into the world of backend and frontend
+              development broadened my understanding of building robust digital
+              experiences.
+            </p>
+
+            <p>
+              Embracing the DevOps philosophy, I delved into the intricacies of
+              Vagrant and Linux, orchestrating seamless environments that
+              harmonize development and operations. This foray into DevOps
+              equipped me with the ability to streamline deployment processes
+              and enhance collaboration among cross-functional teams.
+            </p>
+
+            <p>
+              To complete my comprehensive software engineering curriculum, I
+              embraced the realm of networking. I explored the architecture that
+              underpins digital communication, understanding how data flows
+              across networks, and acquiring skills to configure, secure, and
+              troubleshoot network components.
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <img class="social" src="{% static 'images/facebook.png' %}" />
+              </li>
+              <li>
+                <img class="social" src="{% static 'images/linkedin.png' %}" />
+              </li>
+              <li>
+                <img class="social" src="{% static 'images/twitter.png' %}" />
+              </li>
+              <li>
+                <img class="social" src="{% static 'images/youtube.png' %}" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Experience as a Developer</h5>
+            <hr />
+            <p>Backend developer</p>
+            <p>
+              Development and maintenance of the website and its mobile version
+              using MongoDB, Express.js, Node.js, and React.js. Implementation
+              of new features. Maintenance and bug fixes. Deployment of the
+              application on an OVH server. Setting up an administration panel
+              using Forest admin.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>What I Know</h5>
+            <hr />
+            <p>
+              My skillset encompasses Python, Django, HTML/CSS,
+              JavaScript/jQuery, React, Postgres, AWS, and diverse APIs like
+              Google Maps and JavaScript charts, among others. Additionally, I'm
+              engaged in projects involving Node.js, MongoDB, and delving into
+              the realm of Machine Learning. The breadth of my expertise goes
+              beyond what can be summed up in a single sentence!
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>How I Learn</h5>
+            <hr />
+            <p>Automation.</p>
+
+            <p>
+              I specialize in orchestrating efficient and reliable deployment
+              processes through a combination of Ansible, Docker, Jenkins, and
+              Vagrant. Ansible allows me to automate complex deployment tasks,
+              ensuring consistent configurations across various servers. By
+              defining infrastructure as code, I can easily manage and scale
+              deployments, saving time and reducing errors. Docker plays a
+              pivotal role in my deployment strategy by encapsulating
+              applications and their dependencies into isolated containers. This
+              containerization approach guarantees seamless portability and
+              consistency, regardless of the underlying environment. Jenkins is
+              my go-to tool for continuous integration and continuous deployment
+              (CI/CD). I leverage Jenkins to automate building, testing, and
+              deploying applications, enabling rapid and reliable releases.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Short Term Goals</h5>
+            <hr />
+            <p>
+              My immediate objective is to successfully accomplish the DevOps
+              roadmap. This entails mastering the integration of development and
+              operations practices, optimizing collaboration between teams, and
+              implementing a range of cutting-edge tools and methodologies.
+            </p>
+            <p>
+              Aside from building small projects I would love to enter a
+              position where I can be part of a bigger team & learn from others
+              with more experience than myself.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
